@@ -1,0 +1,13 @@
+version: '3'
+services:
+  spring-boot-app:
+    build:
+      context: spring-boot-service
+    ports:
+      - "8080:8080"
+
+  vue-app:
+    build:
+      context: react-frontend
+    ports:
+      - "8081:3000"
