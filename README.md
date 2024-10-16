@@ -1,4 +1,4 @@
-# Get Your Guide activities Application
+# Search Activities Application
 
 ## Overview
 
